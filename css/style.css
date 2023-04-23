@@ -3,6 +3,22 @@ body{
     background-color: rgb(37, 34, 34);
 }
 
+.nav-link{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#div-links{
+    display:flex;
+    flex-direction: row;
+}
+
+#links{
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav ul li{
     display: inline;
 }
@@ -15,10 +31,18 @@ nav ul li a {
 }
 
 #logo {
+    width: 100%;
+}
+
+.navbar-brand{
     width: 5%;
 }
 
-/*foto index*/
+#logo5 {
+    width: 5%;
+}
+
+/*index*/
 #foto-index{
     width: 100%;
 }
@@ -39,6 +63,41 @@ nav ul li a {
     border: 1px solid #648af1;
     text-align: center;
 }
+
+/*MERCH*/
+
+#merch{
+    margin-left: 2%;
+    margin-top:  3%;
+}
+
+#buzo1{
+    width: 85%;
+}
+
+#buzo2{
+    width: 85%;
+}
+
+#remera1{
+    width: 85%;
+}
+
+#remera2{
+    width: 85%;
+}
+
+#remera3{
+    width: 85%;
+}
+
+#remera4{
+    width: 85%;
+}
+
+
+
+
 
 /*Discografia*/
 
