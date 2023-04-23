@@ -1,0 +1,117 @@
+body{
+    color: white;
+    background-color: rgb(37, 34, 34);
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    padding: 5%;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration:none;
+}
+
+#logo {
+    width: 5%;
+}
+
+/*foto index*/
+#foto-index{
+    width: 100%;
+}
+
+#tour{
+    margin-left: 45%;
+}
+
+#table{
+    width: 100%;
+    
+}
+
+#table td{
+    border: 1px solid #648af1;
+    text-align: center;
+}
+
+/*Discografia*/
+
+#discografia{
+    width: 60%;
+    margin-left: 20%;
+}
+
+#disco1{
+    width: 20%;
+}
+
+#disco2{
+    width: 21%;
+}
+
+#disco3{
+    width: 21%;
+}
+#disco4{
+    width: 21%;
+}
+#disco5{
+    width: 21%;
+}
+#disco6{
+    width: 20%;
+}
+#disco7{
+    width: 20%;
+}
+
+/*fin de discografia*/
+
+/*Sobre Nosotros*/
+
+#sobreNosotros{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    margin-top:5% ;
+}
+
+footer a{
+    padding: 1%;
+}
+
+#twitter{
+    width: 5%;
+}
+#spotify{
+    width: 4%;
+    margin-left:38% ;
+    
+
+}
+#youtube{
+    width: 6%;
+}
+
+
+
+
+
+
+
+
