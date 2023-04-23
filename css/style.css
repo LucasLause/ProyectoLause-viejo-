@@ -29,7 +29,10 @@ nav ul li a {
 
 #table{
     width: 100%;
-    
+}
+
+.table{
+    color: white;
 }
 
 #table td{
