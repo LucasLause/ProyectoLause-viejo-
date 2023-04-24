@@ -7,12 +7,15 @@ body{
     background-color: rgb(37, 34, 34);
 }
 
+.navbar-toggler{
+    --navbar-toggler-border-color: rgb(255, 255, 255)
+}
 .nav-link{
     color: white;
     font-size: 1.5rem;
 }
 
-#div-links{
+.div-links{
     display:flex;
     flex-direction: row;
 }
@@ -21,17 +24,6 @@ body{
     width: 50%;
     justify-content: space-between;
     align-items: center;
-}
-
-nav ul li{
-    display: inline;
-}
-
-nav ul li a {
-    padding: 5%;
-    color: white;
-    font-size: 1.5rem;
-    text-decoration:none;
 }
 
 #logo {
@@ -220,7 +212,6 @@ footer a{
 }
 #spotify{
     width: 100%;
-    /* margin-left:38% ; */
 }
 
 #youtube{
@@ -229,7 +220,65 @@ footer a{
 
 
 
+/* media querys */
 
+@media (max-width: 375px) {
+
+    .navbar{
+        width: 100%;
+    }
+
+    #logo{
+        width: 250%;
+    }
+
+    /* inicio */
+
+    .carousel{
+        width:105%;
+        margin-top: 19%;
+    }
+
+    .table{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    /* sobre nosotros */
+
+    #sobreNosotros{
+        margin-top:15% ;
+    }
+    
+    #section-sobre p{
+        margin-left: 4%;
+        width: 92%;
+
+    }
+
+
+    
+    footer{
+        margin-top: 10%;
+        width: 90%;
+    }
+
+    #twitter{
+        width: 650%;
+    }
+    #spotify{
+        width: 600%;
+    }
+    
+    #youtube{
+        width: 700%;
+    }
+
+
+
+
+}
 
 
 
