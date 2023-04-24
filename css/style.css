@@ -281,5 +281,21 @@ footer a{
 }
 
 
+@media (max-width: 1200px){
+    
+    #links{
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .carousel{
+        width:100%;
+        margin-top: 7%;
+    }
+
+    #sobreNosotros{
+        margin-top: 4%;
+    }
+}
 
