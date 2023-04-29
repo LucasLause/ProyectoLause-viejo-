@@ -186,9 +186,19 @@ body{
     margin-bottom: 2%
 }
 
-.section-form form label{
-    font-size:1.5rem
+.section-form form div label{
+    font-size:1.7rem;
 }
+
+.section-form form div{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    margin-bottom: 3%;
+
+
+}
+
 
 
 
